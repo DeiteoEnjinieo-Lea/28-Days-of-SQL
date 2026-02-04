@@ -1,4 +1,9 @@
 /*
+This is Day 2 of my 28 day SQL Journey. I utilize AI to provide me with daily task similar to what I would be doing 
+if I was currently working in the role that I am applying for which is an Entry Level SQL Engineer or Developer. 
+To explain this, I go onto Indeed job boards looking for jobs with the qualifications that I meet and then a provide 
+the following AI prompt:
+
 Imagine you are extracting sales data from a legacy CRM into a staging table. 
 Your goal is to retrieve only "Load-Ready" records while identifying data quality issues
 
