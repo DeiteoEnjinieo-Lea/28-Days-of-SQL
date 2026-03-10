@@ -11,11 +11,11 @@ def find_production_blockers(sql_file_path):
     try:
         # Connect to your database
         connection = pyodbc.connect(
-            user="your_user",
-            password="your_password",
-            host="your_host",
-            port="your_port",
-            database="your_db"
+            'DRIVER={ODBC Driver 17 for SQL Server};'
+            'SERVER=your_host;'
+            'DATABASE=your_db;'
+            'UID=your_user;'
+            'PWD=your_password'
         )
 
         # Read my SQL script 
